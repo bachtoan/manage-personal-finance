@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="Thêm phân loại"/>
+    <EditText
+        android:id="@+id/edtTenLoai"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Tên loại"
+        android:layout_marginTop="8dp"/>
+    <Spinner
+        android:id="@+id/spnTrangThai"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnHuyLoai"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="Huỷ"/>
+        <Button
+            android:id="@+id/btnThemLoai"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="Thêm mới"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

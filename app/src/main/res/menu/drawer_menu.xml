@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_loai"
+            android:icon="@drawable/ic_baseline_event_note_24"
+            android:title="Quản lý loại"
+            />
+        <item android:id="@+id/nav_thu"
+            android:icon="@drawable/ic_thu"
+            android:title="Khoản thu"
+            />
+        <item android:id="@+id/nav_chi"
+            android:icon="@drawable/ic_chi"
+            android:title="Khoản chi"
+            />
+        <item android:id="@+id/nav_thongke"
+            android:icon="@drawable/ic_baseline_brush_24"
+            android:title="Thống kê"
+            />
+    </group>
+    <item android:title="Comunicates">
+        <menu>
+            <item android:id="@+id/nav_caidat"
+                android:title="Cài đặt"
+                android:icon="@drawable/ic_baseline_settings_24"
+                />
+            <item android:id="@+id/nav_thoat"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Thoát"
+                />
+
+        </menu>
+    </item>
+
+
+</menu>

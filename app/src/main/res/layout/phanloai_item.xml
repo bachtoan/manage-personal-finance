@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp"
+    android:id="@+id/cvPhanLoai">
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtTenLoai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:hint="Tên loại"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/txtTrangThai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Trạng thái"
+            android:textSize="25sp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/txtTenLoai"
+            android:textColor="@android:color/holo_blue_bright"/>
+        <ImageView
+            android:id="@+id/ivUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_update"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/ivUpdate"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
